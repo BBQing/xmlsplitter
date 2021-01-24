@@ -1,8 +1,6 @@
 import pathlib
 from lxml import etree
 
-
-
 class XmlSplitter:
 
     def __init__(self, target_xpath,  default_xpath_tag = 'default'):

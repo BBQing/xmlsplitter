@@ -1,7 +1,6 @@
 import click
 from xmlsplitter import XmlSplitter
 
-# help="Split XML document into several XML documents on target XPath"
 @click.command()
 @click.argument("target_xpath")
 @click.option("--xpath_default", default='default', help="namespace name used as default namespace name")
