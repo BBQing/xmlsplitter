@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "xmlsplitter"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+lxml = "^4.6.2"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+
+
+[tool.poetry.scripts]
+xmlsplitter = 'cli:cli'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
